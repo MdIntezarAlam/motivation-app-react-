@@ -1,0 +1,124 @@
+.container_ {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(249, 249, 249);
+    background-image: url("../assets/cl4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+}
+
+.container__ {
+    width: 30vw;
+    padding: 10px;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
+    min-width: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.insta {
+    position: absolute;
+    align-self: flex-end;
+    color: red;
+    font-size: 40px;
+    font-weight: 800;
+    top: 0;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.constainer_cins {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.container___ {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    font-style: italic;
+    line-height: 1.8rem;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 10px;
+}
+
+
+
+.autho {
+    align-self: flex-end;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 900;
+    padding: 10px;
+    margin-top: 25px;
+    color: rgb(67, 0, 250);
+}
+
+
+button {
+    position: absolute;
+    padding: 10px;
+    background-size: cover;
+    outline: none;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #130bea;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.iconss {
+    font-size: 50px;
+    color: rgb(52, 46, 88);
+}
+
+.iconssss {
+    font-size: 22px;
+    color: #ea0b21;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .container__ {
+        width: 70vw;
+        min-height: 200px;
+    }
+
+    .iconss {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    .container__ {
+        width: 70vw;
+        margin: 150px auto;
+    }
+    .insta{
+        margin: 0;
+    }
+}
